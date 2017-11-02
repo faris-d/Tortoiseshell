@@ -1,17 +1,111 @@
+/* Universal Styles */
+
 body {
   font-size: 18px;
-  font-style: Helvetica;
-  
+  line-height: 1.4;
+  font-family: Helvetica;
+
 }
 
-/** Main-site container **/
+/* Main-site container */
+.site-container {
+  max-width: 960px;
+  margin: 0px auto;
+}
 
-/** Header/Banner section **/
 
-/** Services section **/
+/* Header/Banner section */
+header {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png
+  );
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: 100%;
 
-/** About section **/
+}
 
-/** Footer section **/
+.header {
+  background-color: cadetblue;
+  position: relative;
+  top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.company-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.logo-white {
+  height: 1.5rem;
+  padding-right: 1rem;
+
+}
+
+.nav-list span {
+  padding-left: 2rem;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.banner-textbox {
+  position: relative;
+  display: flex;
+  top: 10rem;
+  left: 410px;
+  width: 570px;
+  height: 5rem;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-textbox h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+/* Services section */
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.service {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 8rem;
+  flex-wrap: wrap;
+  width: 5rem;
+  padding: 0rem 3rem;
+}
+
+#paper-icon {
+  width: 3.5rem;
+
+}
+
+.icon {
+  width: 5rem;
+}
+
+/* Info section */
+
+/* Footer section */
 
 /** Media Queries **/

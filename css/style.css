@@ -106,6 +106,44 @@ header {
 
 /* Info section */
 
+.info-section {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.info {
+  width: 35%;
+  margin-left: 5%;
+  margin-bottom: 5rem;
+}
+
+.info h4 {
+  font-weight: bold;
+  color: white;
+  background-color: cadetblue;
+  font-size: 1rem;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+
+
 /* Footer section */
+
+.footer {
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: azure;
+
+}
+
+.footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
 
 /** Media Queries **/

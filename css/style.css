@@ -56,23 +56,19 @@ header {
   display: none;
 }
 
-.banner-textbox {
+h1 {
   position: relative;
-  display: flex;
   top: 10rem;
-  left: 410px;
-  width: 570px;
-  height: 5rem;
+  width: 40%;
+  padding: 1.5rem 5rem;
+  left: 47%;
   background-color: white;
-  align-items: center;
-  justify-content: center;
-}
-
-.banner-textbox h1 {
+  text-align: center;
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
 }
+
 
 /* Services section */
 
@@ -90,18 +86,21 @@ header {
   text-align: center;
   flex-direction: column;
   height: 8rem;
-  flex-wrap: wrap;
   width: 5rem;
   padding: 0rem 3rem;
 }
 
 #paper-icon {
+  display: flex;
+  align-items: center;
   width: 3.5rem;
 
 }
 
-.icon {
+.icon img {
   width: 5rem;
+  display: flex;
+  align-items: center;
 }
 
 /* Info section */
@@ -130,6 +129,7 @@ header {
 
 
 
+
 /* Footer section */
 
 .footer {
@@ -147,3 +147,87 @@ header {
 }
 
 /** Media Queries **/
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+  .nav-list {
+    display: none;
+  }
+  .nav-menu {
+    display: block;
+  }
+  .site-container {
+    width: 100%;
+  }
+
+
+header {
+    height: 17rem;
+    background-repeat: no-repeat;
+    background-position: 20%;
+
+  }
+
+.header {
+  top: 0;
+}
+
+
+h1 {
+    position: relative;
+    top: 9rem;
+    width: 100%;
+    left: auto;
+    padding: 1rem;
+    background-color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  .services {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 3.77rem 0rem;
+
+  }
+  .service {
+    width: 100%;
+  }
+
+
+.icon {
+  display: flex;
+  justify-content: center;
+
+}
+
+.title {}
+
+  .info-section {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .info {
+    width: 100%;
+  }
+  .info h4 {
+    width: 100%;
+    text-align: center;
+  }
+  .info p {
+    font-size: 0.77rem;
+    text-align: left;
+  }
+  .footer span {
+    display: none;
+  }
+  .footer {
+    justify-content: center;
+  }
+}
